@@ -19,7 +19,6 @@ public class UrnaEletronica {
         // Com um numero correspondendoa cada candidato
         
         //VARIAVEIS
-            String Senha = "a1b2c3d4";
             final int Igor = 1;
             final int Moacir = 2;
             final int Eduardo = 3;
@@ -45,7 +44,6 @@ public class UrnaEletronica {
         //voto para o candidato escolhido pelo usuario     
             
                 if(voto == 1){
-                    VotoIgor = VotoIgor+1;
         //  o prograama deve exibir ao usuario uma mensagem que o voto foi 
         //computado com sucesso    
                     System.out.println("Voce votou no Igor. Confirma?S/N?");
